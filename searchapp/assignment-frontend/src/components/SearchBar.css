@@ -1,0 +1,95 @@
+
+.searchBar{
+    margin-top: 10px;   
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox{
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 25px;
+  padding: 15px;
+  height: 30px;
+  width: 800px;
+}
+
+.searchIcon {
+  font-size: 50px;
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+.searchIcon:hover{
+    cursor: pointer;
+}
+
+.dataResult {
+  border: 2px solid grey;
+  margin: 20px auto;
+  width: 880px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 550px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0px auto;
+  margin: 20px;
+  box-shadow: 0px 5px 15px rgba(10, 10, 10, 0.5);
+  transition: .5s;
+
+}
+
+.dataItem:hover{
+  transform: scale(1.1);
+}
+
+ a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+} 
+.image{
+  width: 200px;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  
+}
+.booktitle{
+  padding: 0;
+}
+h4{
+  color: black;
+  margin: 0;
+  text-align: center;
+}

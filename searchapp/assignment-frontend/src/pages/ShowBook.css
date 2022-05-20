@@ -1,0 +1,33 @@
+.showbookContainer{
+    box-sizing: border-box;
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+    border: 2px solid grey;
+    background-color: white;
+    display: flex;
+}
+
+.showimage{
+       height: 395px;
+       width: 250px;
+}
+ul{
+    padding: 0;
+    margin: 0;   
+}
+
+ul li {
+    height: 43px;
+    margin: 0;
+    padding: 5px;
+    width: 535px;
+    border: 2px solid grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+    list-style-type: none;
+}
+li a{
+    color: blue;
+}
